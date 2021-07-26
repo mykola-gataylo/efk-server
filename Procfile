@@ -1,1 +1,1 @@
-web: node  -r ts-node/register ./dist/bin/www.js
+web: node ./dist/bin/www.js

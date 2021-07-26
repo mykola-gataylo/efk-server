@@ -1,1 +1,1 @@
-web: npm run start
+web: node  -r ts-node/register dist/bin/www.js

@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node  -r ts-node/register dist/bin/www.js",
+    "start": "node  -r ts-node/register ./dist/bin/www.js",
     "postinstall": "tsc",
-    "watch-node": "nodemon -r ts-node/register dist/bin/www.js",
+    "watch-node": "nodemon -r ts-node/register ./dist/bin/www.js",
     "watch-ts": "tsc -w",
     "deploy": "git add . && git commit -m Heroku && git push heroku main"
   },

@@ -6,7 +6,7 @@
       "script": "start",
       "problemMatcher": [],
       "label": "npm: start",
-      "detail": "node  -r ts-node/register ./bin/www.ts"
+      "detail": "node  -r ts-node/register dist/bin/www.js"
     }
   ]
 }
